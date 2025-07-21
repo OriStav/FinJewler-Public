@@ -1,0 +1,58 @@
+[[pages]]
+path = "pages/welcome.py"
+name = "Welcome"
+icon = "🏠"
+
+[[pages]]
+name = "Personal Finance"
+icon = ""#🪙
+is_section = true
+
+[[pages]]
+path = "pages/emergency_fund.py"
+name = "Emergency Fund"
+icon = "💰"
+
+[[pages]]
+path = "pages/long_term_forecast.py"
+name = "Long Term Forecast"
+icon = "🔭"
+
+[[pages]]
+path = "pages/postponement_consequences.py"
+name = "Postponement"
+icon = "🏖️"
+[[pages]]
+name = "Investments Data"
+icon = ""#📈
+is_section = true
+
+[[pages]]
+path = "pages/correlations.py"
+name = "Correlations"
+icon = "🧮"
+
+[[pages]]
+path = "pages/mortgage.py"
+name = "Mortgage"
+icon = "🏦" 
+
+[[pages]]
+name = ""#Coming Soon
+icon = "🔜"#
+is_section = true
+
+[[pages]]
+path = "pages/historical_analysis.py"
+name = "Historical Analysis"
+icon = "📊" 
+
+[[pages]]
+path = "pages/etfs_and_leverage.py"
+name = "ETFs and Leverage"
+icon = "📑" 
+
+[[pages]]
+path = "pages/trades_analysis.py"
+name = "Trades Analysis"
+icon = "🪙" 
