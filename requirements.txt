@@ -3,3 +3,4 @@ plotly
 seaborn
 openpyxl
 yfinance
+st_pages
