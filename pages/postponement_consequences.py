@@ -53,4 +53,4 @@ st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("* *Values are inflation adjusted*")
 st.markdown("* *Assuming funds are held in a money market fund to mitigate inflation's erosive effects while postponed.*")
-st.write("**OS made**, 2024") 
+st.write("**OS made**, 2024 • Not financial advice") 

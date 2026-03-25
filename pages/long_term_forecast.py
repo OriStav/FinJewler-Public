@@ -82,6 +82,6 @@ fig = plot_combined_growth(init_price=init_price, expns=expns, initial_invest=in
                             monthly_invest=monthly, annual_rev=annual_rev, duration=duration+5)
 st.plotly_chart(fig)
 
-st.write("**OS made**, 2024")
+st.write("**OS made**, 2024 • Not financial advice")
 #%%
 

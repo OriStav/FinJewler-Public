@@ -30,23 +30,25 @@ st.markdown("""
         margin: 0.5rem 0;
     }
     .feature-card {
-        background: white;
+        background-color: var(--background-color);
+        color: var(--text-color);
         padding: 1.5rem;
         border-radius: 10px;
-        border: 1px solid #e0e0e0;
+        border: 1px solid rgba(128, 128, 128, 0.4);
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         transition: transform 0.2s;
     }
     .feature-card:hover {
         transform: translateY(-2px);
         box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        border: 1px solid var(--primary-color);
     }
     .coming-soon {
         opacity: 0.7;
-        background: #f8f9fa;
+        background-color: var(--secondary-background-color);
     }
     .section-header {
-        color: #2c3e50;
+        color: var(--text-color);
         border-bottom: 3px solid #667eea;
         padding-bottom: 0.5rem;
         margin-bottom: 1.5rem;

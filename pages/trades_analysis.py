@@ -35,4 +35,4 @@ with col3:
 st.progress(0.75)
 st.caption("Development Progress: 75% Complete")
 
-st.write("**OS made**, 2024")
+st.write("**OS made**, 2024 • Not financial advice")

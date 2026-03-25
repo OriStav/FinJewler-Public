@@ -48,4 +48,4 @@ link_row = st.columns([1,1])
 link_row[0].link_button(icon="🧮",label="Formula Recommendation",url="https://www.calcalist.co.il/money/articles/0,7340,L-3641283,00.html",use_container_width=True) 
 link_row[1].link_button(icon="🏦",label="Best kept at Money market funds",url="https://www.funder.co.il/kaspit",use_container_width=True) 
 
-st.write("**OS made**, 2024") 
+st.write("**OS made**, 2024 • Not financial advice") 

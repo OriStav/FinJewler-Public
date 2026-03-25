@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 st.title("🏦 Mortgage")
-st.markdown(":red-background[**demo**]")
+st.markdown(":red-background[**demo** - calculations may be inaccurate]")
 cols = st.columns(3)
 with cols[0]:
     init_payment =  st.number_input("Initial Payment", value=300000, placeholder="Type a number...",help="")
@@ -82,3 +82,4 @@ down_cols[1].link_button("⚖️ Mortgage Rate Explorer", "https://www.moti.org.
 
 # house_duration =  st.number_input("H  ouse saving duration (Years)", value=saving_duration, placeholder="Type a number...")
 # price = init_price* (1 + expns)**house_duration
+st.write("**OS made**, 2024 • Not financial advice")
